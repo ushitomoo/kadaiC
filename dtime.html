@@ -16,10 +16,10 @@
       var hh = ('0' + now.getHours()).slice(-2);
       var mm = ('0' + now.getMinutes()).slice(-2);
       var ss = ('0' + now.getSeconds()).slice(-2);
-      nowtime = hh + ":" + mm + ":" + ss;
+      nowtime = hh + "時" + mm + "分" + ss + "秒";
       var id1 = document.getElementById('pos');
-      id1.style.fontSize = "32pt";
-      id1.style.color = "red";
+      id1.style.fontSize = "64pt";
+      id1.style.color = "black";
       id1.innerHTML = nowtime;
     }
 
